@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro");
+@import url("https://fonts.googleapis.com/css?family=Lato|Maven+Pro");
+
+body {
+  background-color: #e4e9eb;
+  margin: 0;
+}
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+  background-color: white;
+}
+.headerClass {
+  background-color: #323232;
+  height: 64px;
+  text-align: center;
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+
+  /*display: grid;
+grid-template-rows: 32px 8px 24px;
+grid-template-columns: 326px 114px 140px 117px 323px;*/
+}
+
+.under-header {
+  margin-top: 20px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 3fr 41fr 130px 41fr 3fr;
+}
+.under-header-border {
+  border-top: 1px solid #e4e9eb;
+}
+
+.mainClass {
+  display: grid;
+  grid-template-columns: 1fr 796px 1fr;
+  text-align: center;
+  margin-top: -20px;
+}
+.around-main-space {
+  display: grid;
+  grid-template-rows: 148px 104px;
+}
+.left-border-style {
+  border-right: 1px solid #e4e9eb;
+  margin-right: 12px;
+}
+.right-border-style {
+  border-left: 1px solid #e4e9eb;
+  margin-left: 12px;
+}
+.mainClass2 {
+  display: grid;
+  grid-template-columns: 1fr 996px 1fr;
+  margin-top: -228px;
+  text-align: center;
+}
+.mainClass3 {
+  display: grid;
+  grid-template-columns: 1fr 796px 1fr;
+  text-align: center;
+  margin-top: -228px;
+}
+
+.hex1 {
+  display: inline-block;
+  width: 180px;
+  height: 108px;
+  overflow: hidden;
+  transform: rotate(30deg);
+}
+.hex2 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(120deg);
+  overflow: hidden;
+}
+.hex3 {
+  width: 100%;
+  height: 100%;
+  background-color: #323232;
+  transform: rotate(120deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerTriangle {
+  display: block;
+  transform: rotate(90deg);
+}
+.hexagon {
+  margin-top: -24px;
+
+  z-index: 5;
+}
+.nav {
+  align-self: center;
+  width: 100px;
+}
+.bi {
+  display: inline-block;
+}
+.prepic {
+  display: inline-block;
+  border-left: 1px solid red;
+  height: 84px;
+  vertical-align: middle;
+  justify-content: center;
+}
+.picture1 {
+  background-image: url(assets/pic1.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture2 {
+  background-image: url(assets/pic2.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture3 {
+  background-image: url(assets/pic3.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture4 {
+  background-image: url(assets/pic4.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture5 {
+  background-image: url(assets/pic5.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture6 {
+  background-image: url(assets/pic6.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture7 {
+  background-image: url(assets/pic7.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture8 {
+  background-image: url(assets/pic8.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture9 {
+  background-image: url(assets/pic9.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture10 {
+  background-image: url(assets/pic10.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture11 {
+  background-image: url(assets/pic11.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture12 {
+  background-image: url(assets/pic12.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.picture13 {
+  background-image: url(assets/pic13.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.div1 {
+  display: inline-block;
+  width: 180px;
+  height: 400px;
+  overflow: hidden;
+  transform: rotate(120deg);
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.div2 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(120deg);
+  overflow: hidden;
+}
+.div3 {
+  width: 100%;
+  height: 100%;
+  background-color: #ccc3;
+  transform: rotate(120deg);
+}
+.under-pictures {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 32fr 1fr;
+  margin-top: -42px;
+}
+.under-pictures-border {
+  height: 11px;
+  border-top: 1px solid #e4e9eb;
+}
+.paddingForRectangles {
+  padding-bottom: 11px;
+}
+.portfolio-blog {
+  background-color: #2eb398;
+  display: grid;
+  grid-template: 13px 341px 12px / 100px 1fr 100px;
+}
+.portfolio-content-space {
+  display: grid;
+  grid-template: 67px 207px 67px / 219px 1fr;
+}
+.portfolio-border-left {
+  border-right: 1px solid #219d84;
+}
+.portfolio-border-right {
+  border-left: 1px solid #219d84;
+}
+.authorPic {
+  margin-top: -96px;
+  margin-left: 12px;
+}
+.author {
+  background-image: url(assets/author.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.portfolioHeader {
+  font-family: "Maven Pro", "AdobeInvisFont", "MyriadPro-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 16px;
+  color: rgba(215, 252, 245, 0.9);
+  text-align: justify;
+}
+.portfolioUnderHeader {
+  font-family: "Maven Pro", "AdobeInvisFont", "MyriadPro-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 36px;
+  color: #20816d;
+}
+.portfolioText {
+  padding-top: 8px;
+  color: rgba(215, 252, 245, 0.8);
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  padding-right: 16px;
+}
+.social-links-pool {
+  display: grid;
+  grid-template: 36px 1fr / 1fr 160px;
+}
+.socialLinksContainer {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.flexForSocials {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #04ac95;
+  justify-content: center;
+  align-items: center;
+}
+.pre-feedback {
+  background-color: #323232;
+  height: 13px;
+  display: grid;
+  grid-template-columns: 30px 1fr 30px;
+}
+.pre-feedback-border {
+  border-bottom: 1px solid #2b2b2b;
+}
+.feedback-blog {
+  height: 564px;
+  background-color: #323232;
+  display: grid;
+  grid-template-columns: 6fr 29fr 16fr;
+}
+.feedbackHeader {
+  margin-top: 46px;
+  font-family: "Maven Pro", "AdobeInvisFont", "MyriadPro-Regular", sans-serif;
+  font-size: 32px;
+  color: rgba(224, 224, 224, 0.9);
+  text-align: justify;
+}
+.feedbackUnderHeader {
+  font-family: "Maven Pro", "AdobeInvisFont", "MyriadPro-Regular", sans-serif;
+  font-size: 18px;
+  color: rgba(190, 190, 190, 0.9);
+  text-align: justify;
+  margin-bottom: 16px;
+}
+input[type="text"],
+input[type="email"] {
+  background-color: #454545;
+  border: none;
+  width: 580px;
+  height: 38px;
+  margin-bottom: 16px;
+  font-family: "Lato", "AdobeInvisFont", "MyriadPro-Regular", sans-serif;
+  font-size: 12pt;
+  color: rgba(190, 190, 190, 255);
+  text-align: justify;
+}
+.textArea {
+  width: 580px;
+  height: 150px;
+  padding: 0;
+  background-color: #454545;
+  border: none;
+  font-family: "Lato", "AdobeInvisFont", "MyriadPro-Regular", sans-serif;
+  font-size: 12pt;
+  color: rgba(190, 190, 190, 255);
+  text-align: justify;
+}
+.location-info {
+  display: grid;
+  grid-template: 120px 1fr 196px / 20px 1fr 120px;
+}
+.locationInfoStyle {
+  font-size: 14px;
+  font-family: "Lato", "Lato-Regular", "AdobeInvisFont", "MyriadPro-Regular",
+    sans-serif;
+  color: rgba(224, 224, 224, 0.8);
+  text-align: justify;
+  margin-bottom: 48px;
+}
+.contactsInfoStyle {
+  padding-top: 6px;
+  font-size: 14px;
+  font-family: "Lato", "AdobeInvisFont", "MyriadPro-Regular", sans-serif;
+  color: rgba(190, 190, 190, 0.8);
+  text-align: justify;
+}
+.telNumber {
+  text-decoration: none;
+  color: rgba(190, 190, 190, 0.8);
+}
+.contactColor {
+  color: #2eb398;
+  padding-right: 10px;
+}
+.submitButton {
+  height: 37px;
+  width: 90px;
+  background-color: #2eb398;
+  border: none;
+  font-family: "Lato-Bold", sans-serif;
+  color: rgba(215, 252, 245, 0.8);
+  text-transform: uppercase;
+}
+.buttonAlign {
+  text-align: right;
+  padding-top: 12px;
+}
